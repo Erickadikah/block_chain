@@ -29,7 +29,7 @@ const Hero = () => {
               </p>
               <div className="flex lg:gap-6 gap-10">
                 <ScrollLink
-                  className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm bg-blue-500 text-white hover:bg-blue-600 focus:outline-none rounded-full"
+                  className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm bg-blue-500 text-white hover:bg-blue-600 focus:outline-none rounded-full shadow-2xl"
                   to="features"
                   smooth={true}
                   duration={300}
@@ -38,13 +38,13 @@ const Hero = () => {
                 </ScrollLink>
                 <button
                   onClick={toggleForm}
-                  className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm border border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white focus:outline-none rounded-full"
+                  className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm border border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white focus:outline-none rounded-full shadow-2xl"
                 >
                   Sign Up
                 </button>
               </div>
             </div>
-            <div className="md:w-1/2 overflow-hidden rounded-full bg-blue-400">
+            <div className="md:w-1/2 overflow-hidden rounded-full bg-blue-400 shadow-4xl">
               <Image
                 src="/images/tech.png"
                 alt="hero-image"

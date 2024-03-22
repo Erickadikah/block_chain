@@ -41,7 +41,8 @@ const Section3 = () => {
     >
       <div className="container mx-auto lg:px-8 px-4 mb-10">
         <h1 className="lg:text-4xl text-2xl md:text-5xl font-extrabold text-gray-900 leading-tight lg:text-center mb-4 lg:mb-8">
-        Sign up now and embark on a journey towards financial empowerment!
+        Sign up now and embark on a journey <br />
+        towards financial empowerment!
         </h1>
         <p className="lg:text-lg text-sm text-gray-700 lg:text-center mb-4 lg:mb-10 max-w-screen-md mx-auto">
           Our digital marketing agency offers a variety of services to help
@@ -49,13 +50,13 @@ const Section3 = () => {
         </p>
         <div className="flex gap-6 lg:gap-8 lg:justify-center lg:mb-6">
                 <button 
-                className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm bg-blue-500 text-white hover:bg-blue-600 hover:shadow-2xl focus:outline-none rounded-full"
+                className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm bg-blue-500 text-white hover:bg-blue-600 hover:shadow-2xl focus:outline-none rounded-full shadow-xl"
                 onClick={toggleForm}
                 >
                   Contact Us
                 </button>
-                <button className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm border border-blue-500 text-blue-500 hover:shadow-2xl hover:bg-blue-600 hover:text-white focus:outline-none rounded-full">
-                  Request Demo
+                <button className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm border border-blue-500 text-blue-500 hover:shadow-2xl hover:bg-blue-600 hover:text-white focus:outline-none rounded-full shadow-xl">
+                  Connect to metamask
                 </button>
               </div>
         {features.map((feature, index) => (
