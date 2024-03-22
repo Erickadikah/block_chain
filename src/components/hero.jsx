@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="lg:h-[95vh] h-[100vh]  relative bg-[#F3F5F8]" id="hero">
+    <div className="lg:h-[95vh] h-[85vh] sm:h-[40vh]  relative bg-[#F3F5F8]" id="hero">
       <div className="">
         <div className="container mx-auto px-4 relative z-0 ">
           <div className="flex flex-col md:flex-row items-center gap-4 lg:py-20 py-10">
@@ -27,7 +27,7 @@ const Hero = () => {
                 roommates, family, and friends. Share bills, split expenses, and
                 settle up easily with friends and family.{" "}
               </p>
-              <div className="flex gap-6">
+              <div className="flex lg:gap-6 gap-10">
                 <ScrollLink
                   className="px-3 lg:px-14 lg:py-3 py-2 lg:text-md text-sm bg-blue-500 text-white hover:bg-blue-600 focus:outline-none rounded-full"
                   to="features"
