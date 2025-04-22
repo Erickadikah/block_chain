@@ -40,9 +40,13 @@ const Section3 = () => {
       id="features"
     >
       <div className="container mx-auto lg:px-8 px-4 mb-10">
-        <h1 className="lg:text-4xl text-2xl md:text-5xl font-extrabold text-gray-900 leading-tight lg:text-center mb-4 lg:mb-8">
-        Sign up now and embark on a journey <br />
-        towards financial empowerment!
+        <h1 className="lg:w-3/3 lg:text-3xl text-2xl md:text-5xl font-extrabold text-gray-900 leading-tight lg:text-center mb-4 lg:mb-8">
+        Looking for inspiration, perspective, or just a good read? You’ll 
+        find it here.
+        <br />
+        <span className="text-blue-500"> 
+         through stories that speak and ideas that resonate.
+        </span>
         </h1>
         <p className="lg:text-lg text-sm text-gray-700 lg:text-center mb-4 lg:mb-10 max-w-screen-md mx-auto">
           Our digital marketing agency offers a variety of services to help
