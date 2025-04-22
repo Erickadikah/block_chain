@@ -49,7 +49,7 @@ const LandingNavBar = () => {
         <li>
           <ScrollLink
             to="features"
-            className="text-base text-gray-700 hover:underline"
+            className="text-base text-gray-700 hover:underline cursor-pointer"
             smooth={true}
             duration={300}
           >
@@ -59,7 +59,7 @@ const LandingNavBar = () => {
         <li>
           <ScrollLink
             to="hero"
-            className="text-base text-gray-700 hover:underline"
+            className="text-base text-gray-700 hover:underline cursor-pointer"
             smooth={true}
             duration={500}
           >
@@ -69,7 +69,7 @@ const LandingNavBar = () => {
         <li>
           <ScrollLink
             to="services"
-            className="text-base text-gray-700 hover:underline"
+            className="text-base text-gray-700 hover:underline cursor-pointer"
             smooth={true}
             duration={500}
             id="Services"
@@ -80,7 +80,7 @@ const LandingNavBar = () => {
         <li>
           <ScrollLink
             to="faq"
-            className="text-base text-gray-700 hover:underline"
+            className="text-base text-gray-700 hover:underline cursor-pointer"
             smooth={true}
             duration={500}
             id="FAQ"
@@ -91,7 +91,7 @@ const LandingNavBar = () => {
         <li>
           <ScrollLink
             to="testimonials"
-            className="text-base text-gray-700 hover:underline flex"
+            className="text-base text-gray-700 hover:underline flex cursor-pointer"
             smooth={true}
             duration={500}
             id="Testimonials"
